@@ -1,0 +1,207 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+html,body {
+	width: 100%;
+	height: 100%;
+}
+header {
+	text-align: center;
+	color: white;
+}
+nav.nav-header {
+	text-transform: uppercase;
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: right;
+    padding-top: 1%;
+    padding-right: 5%;
+}
+nav a,.nav-bar a{
+	color: white;
+	padding-right: 2%;
+}
+nav a:hover{
+	color: #3F98D3;
+}
+a ,a:hover{
+	text-decoration: none;
+	
+}
+.nav-bar {
+	width: 100%;
+	padding: 1%;
+	background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    z-index: 91;
+    top: 0px;
+}
+body{
+    margin:0;
+    padding:0;
+}
+.container-fluid {
+	width: 100%;
+	padding-left: 0px;
+}
+.item img {
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	max-height: 100%;
+	height: 0px;
+}
+
+.carousel,.item,.active{
+	height:100%;
+}
+.carousel-inner{
+	height:100%;
+}
+
+.col-md-12 {
+	padding-right: 0px;
+}
+.contenedor> .mr {
+	margin-right: 0px;
+	height: 100%;
+}
+.carousel-caption {
+	padding-bottom: 13%;
+}
+.head-text {
+	font-size: 32px;
+	font-family: 'Dancing Script', cursive;
+}
+.logo {
+	font-family: 'Lobster Two', cursive;
+	font-size: 25px;
+}
+
+#about {
+	background: url('../img/wild_flowers.png');
+	width: 100%;
+	height: 680px;
+	color: black;
+}
+
+.box-gray {
+	
+	width: 100%;
+	height: 100%;
+	background: url('../img/old_wall.png');
+	padding: 10%;
+}
+#image{
+    width: 78%;
+    height: 395px;
+    background-position: center;
+    float: right;
+}
+
+h1 {
+	font-family: 'Lobster', cursive;
+	color: white;
+	font-size: 6em;
+	padding-bottom: 4%;
+}
+
+h2 {
+	font-size: 45px;
+	font-family:'Pacifico', cursive;
+	padding-bottom: 1%;
+}
+p.name {
+	font-family: 'Dancing Script', cursive;
+	font-size: 45px;
+}
+p {
+	font-size: 17px;
+}
+.bg-pentagon {
+	width: 100%;
+	height: 355px;
+	background: url('../img/jardin.jpg');
+	padding-top: 1%;
+	background-position: center bottom;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.bg-abilities {
+	background: #CEE443;
+}
+.icon {
+	margin: 2%;
+}
+.icon:hover {
+    transition: background .6s;
+    background-color: black;
+    border-radius: 83px;
+}
+.phrase {
+	background: url('../img/paisaje.jpg');
+	height: 300px;
+	background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#works {
+	background: url('../img/wild_flowers.png');
+	width: 100%;
+	height: 1045px;
+    padding: 17%;
+    padding-top: 7%;
+    color: black;
+}
+#contact {
+    width: 100%;
+    height: 77%;
+    background-image: url('../img/last-bg.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.bk {
+	color: black;
+}
+.i-center {
+	font-size: 15px;
+	width: 30%;
+	height: 119px;
+}
+
+.lema {
+	font-family: 'Dancing Script', cursive;
+    font-size: 45px;
+    color: white;
+}.mac {
+	width: 29%;
+
+}
+.item .works {
+	width: 100%;
+	height: 300px;
+
+}
+.auto {
+	margin: 0 auto;
+}
+.red {
+	color: black;
+	padding: 2%;
+}
+.carousel-control {
+    opacity: 0;
+}
+.box-white {
+	background: #E0DADA;
+	width: 325px;
+    margin: 0 auto;
+    padding: 1%;
+}
+.opacity {
+	background: rgba(0,0,0,0.5);
+	height: 100%;
+	padding-top: 1%;
+}

@@ -1,0 +1,8 @@
+@font-face {
+	font-family: Cantate Beleved;
+	src: url(Free-fonts/Cantate Beleved.ttf);
+}
+h1 {
+	font-family: Cantate Beleved;
+	color: white;
+}
