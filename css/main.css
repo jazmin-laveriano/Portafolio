@@ -11,9 +11,9 @@ header {
 nav.nav-header {
 	text-transform: uppercase;
 	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    text-align: right;
-    padding-top: 1%;
-    padding-right: 5%;
+  text-align: right;
+  padding-top: 1%;
+  padding-right: 5%;
 }
 nav a,.nav-bar a{
 	color: white;
@@ -27,7 +27,12 @@ nav a,.nav-bar a{
   z-index: 90;
   width: 100%;
 }
-
+.navbar-default .navbar-nav > .active > a {
+	background-color: rgba(0,0,0,0.6);
+}
+.navbar-default .navbar-nav > .active > a:hover {
+	background-color:  rgba(0,0,0,0.6);
+}
 .navbar {
 	border-radius: 0px;
 	background: rgba(0,0,0,0.8);
@@ -47,9 +52,9 @@ a ,a:hover{
 	width: 100%;
 	padding: 1%;
 	background-color: rgba(0, 0, 0, 0.7);
-    position: fixed;
-    z-index: 91;
-    top: 0px;
+  position: fixed;
+  z-index: 91;
+  top: 0px;
 }
 body{
     margin:0;
@@ -87,6 +92,12 @@ body{
 .head-text {
 	font-size: 32px;
 	font-family: 'Dancing Script', cursive;
+}
+.navbar-default .navbar-brand {
+	color: white;
+}
+.navbar-default .navbar-nav > li > a {
+	color: white;
 }
 .logo {
 	font-family: 'Lobster Two', cursive;
@@ -126,6 +137,13 @@ h2 {
 	font-family:'Pacifico', cursive;
 	padding-bottom: 1%;
 }
+.block {
+	background: gray;
+	width: 73%;
+  margin: 0 auto;
+  margin-bottom: 2%;
+  border: 4px solid white;
+}
 p.name {
 	font-family: 'Dancing Script', cursive;
 	font-size: 45px;
@@ -136,12 +154,9 @@ p {
 .bg-pentagon {
 	width: 100%;
 	padding: 2%;
-	background: url('../img/jardin.jpg');
+	background: url('../img/swirl_pattern.png');
 	padding-top: 3%;
-	background-position: center bottom;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: 100%;
+  background-attachment: fixed;
 }
 .bg-abilities {
 	background: #CEE443;
@@ -169,6 +184,9 @@ p {
     padding: 17%;
     padding-top: 4%;
     color: black;
+}
+.carousel-caption {
+    padding-bottom: 19%;
 }
 #contact {
     width: 100%;
@@ -213,9 +231,9 @@ p {
 }
 .box-white {
 	background: #E0DADA;
-	width: 325px;
-    margin: 0 auto;
-    padding: 1%;
+	width: 380px;
+  margin: 0 auto;
+  padding: 1%;
 }
 .opacity {
 	background: rgba(0,0,0,0.4);
@@ -223,3 +241,4 @@ p {
 	height: 100%;
 	padding: 2% 0% 2%;
 }
+
